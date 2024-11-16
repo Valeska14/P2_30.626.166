@@ -1,8 +1,143 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Sour Gummy", sans-serif;
 }
 
-a {
-  color: #00B7FF;
+.cuerpop{
+  width: 100%;
+  height: 220vh;
+  display: flex;
+  background: url('../images/back-groundpage.jpg') no-repeat center center fixed;
+  background-size: cover;
+  backdrop-filter: blur(3px);
+  text-transform: uppercase;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header{
+  width: 100%;
+
+}
+
+.contenedortitulo{
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(#44d3ff,#19a1ca);
+  border-bottom: 5px groove #243379;
+  color: #ffffffff;
+  padding: 3px;
+  font-size: 20px;
+}
+
+.contenedortitulo p{
+  font-size: 12px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.main{
+  width: 550px;
+  height: max-content;
+  border: 5px groove #243379;
+  background-color: #ffffffff;
+  padding: 10px;
+  border-radius: 25px;
+  color: #3925ac;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenedorc{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: #3925ac;
+  margin-top: 5px;
+}
+
+.contenedor{
+  margin-top: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #3925ac;
+}
+
+.contenedor p{
+  font-size: 15px;
+  font-weight: normal;
+  font-style: italic;
+  width: 120px;
+  margin-right: 5px;
+  text-transform: none;
+}
+
+
+.imgdesc{
+  width: 250px;
+  height: 250px;
+  border: 5px groove #243379;
+  border-radius: 40%;
+}
+
+.contenedor2{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  color: #3925ac;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.imgserv{
+  width: 250px;
+  height: 250px;
+  border: 5px groove #243379;
+  border-radius: 40%;
+}
+
+.imgben{
+  width: 250px;
+  height: 250px;
+  border: 5px groove #243379;
+  border-radius: 40%;
+  margin-right: 10px;
+}
+
+.footer{
+  width: 100%;
+  height: 18vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#44d3ff,#19a1ca);
+  border-top: 5px groove #243379;
+  color: #ffffffff;
+  border-top:5px groove #243379;
+  font-size: 12px;
+}
+
+.footer a{
+  color: #ffffffff;
+}
+
+.secc{
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
 }
